@@ -1,0 +1,87 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+@media screen and (max-width: 768px) {
+  .brand-logo .responsive-img {
+    height: 56px !important;
+    width: 56px !important;
+  }
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+.parallax-container {
+  height: 350px;
+}
+.pinned {
+  position: fixed !important;
+}
+nav ul li b {
+  font-size: 30px; /* nav header font size*/
+}
+
+.size-change {
+  font-size: 8px;
+  position: absolute;
+  top: 32%;
+  left: 1.5%;
+}
+
+.table-of-contents a.active {
+  font-weight: 600 !important;
+  border-bottom: 2px solid rgb(0, 185, 185) !important;
+}
+
+#logo-text {
+  font-weight: 500 !important;
+  margin-top: 20px;
+  color: rgb(0, 163, 163) !important;
+}
+
+/* Container holding the image and the text */
+.img-container {
+  position: static;
+  text-align: center;
+}
+
+.text-block-1 {
+  display: inline-block;
+  position: relative;
+  bottom: 375px;
+  color: white;
+  background-color: rgb(0, 163, 163);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid teal;
+}
+
+/* Keep absolute positioned elements from overlapping navbar pushpin */
+.pushpin {
+  z-index: 997 !important;
+}
+
+nav {
+  background-color: #fafafa !important;
+  box-shadow: none !important;
+}
+
+body {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif !important;
+}
